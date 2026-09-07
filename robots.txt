@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Aponta para o seu mapa do site centralizado
+Sitemap: https://marceloconti.com.br/sitemap.xml
