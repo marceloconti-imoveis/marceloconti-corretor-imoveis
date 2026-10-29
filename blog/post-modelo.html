@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Essencial - Alterar por post -->
+  <title>TITULO_DO_POST | Marcelo Conti</title>
+  <meta name="description" content="DESCRICAO_DO_POST">
+  <link rel="canonical" href="https://marceloconti.com.br/blog/NOME_DO_ARQUIVO.html" />
+
+  <!-- Open Graph / WhatsApp - Alterar por post -->
+  <meta property="og:title" content="TITULO_DO_POST" />
+  <meta property="og:description" content="DESCRICAO_DO_POST" />
+  <meta property="og:image" content="URL_DA_IMAGEM_DE_CAPA" />
+  <meta property="og:url" content="https://marceloconti.com.br/blog/NOME_DO_ARQUIVO.html" />
+  <meta property="og:type" content="article" />
+
+  <!-- Google Fonts: Space Grotesk & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Manrope', 'sans-serif'],
+            heading: ['Space Grotesk', 'sans-serif'],
+          },
+          colors: {
+            carbon: '#111214',
+            surface: '#1A1B1F',
+            borderDark: '#2A2B30',
+            accent: '#D9963A',
+            accentHover: '#B87B28',
+            teal: '#3F8C82',
+            offwhite: '#F2F1EE',
+            muted: '#8A8D98'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "TITULO_DO_POST",
+    "image": "URL_DA_IMAGEM_DE_CAPA",
+    "author": {
+      "@type": "Person",
+      "name": "Marcelo Conti",
+      "jobTitle": "Corretor de Imóveis"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Marcelo Conti Imóveis"
+    },
+    "datePublished": "2026-10-29"
+  }
+  </script>
+</head>
+<body class="bg-carbon text-offwhite font-sans antialiased selection:bg-accent selection:text-carbon">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <!-- Header -->
+  <header class="bg-surface/80 backdrop-blur-md sticky top-0 z-50 border-b border-borderDark">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="/blog/" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-accent text-carbon font-heading font-bold flex items-center justify-center text-lg">MC</div>
+        <div>
+          <span class="font-heading font-bold text-lg text-white block leading-none">MARCELO CONTI</span>
+          <span class="text-xs text-muted font-medium">CORRETOR DE IMÓVEIS • CRECI 327774-F</span>
+        </div>
+      </a>
+      <a href="/blog/" class="text-xs font-bold uppercase tracking-wider text-accent hover:underline">
+        ← Voltar ao Blog
+      </a>
+    </div>
+  </header>
+
+  <!-- Article Hero Header -->
+  <section class="bg-surface border-b border-borderDark py-12">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="flex items-center gap-3 text-xs mb-4">
+        <span class="bg-teal/10 border border-teal/20 text-teal font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
+          CATEGORIA_DO_POST
+        </span>
+        <span class="text-muted">•</span>
+        <span class="text-muted">29 de Outubro de 2026</span>
+        <span class="text-muted">•</span>
+        <span class="text-muted">5 min de leitura</span>
+      </div>
+
+      <h1 class="font-heading text-3xl sm:text-5xl font-bold text-white leading-tight">
+        TITULO_DO_POST
+      </h1>
+
+      <!-- Autor Bar -->
+      <div class="flex items-center gap-3 mt-6 pt-6 border-t border-borderDark/60">
+        <div class="w-12 h-12 rounded-full bg-accent text-carbon font-bold flex items-center justify-center text-xl font-heading">
+          MC
+        </div>
+        <div>
+          <span class="font-bold text-white block text-sm">Por Marcelo Conti</span>
+          <span class="text-xs text-muted">Corretor de Imóveis • CRECI 327774-F</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Banner/Imagem Principal -->
+  <div class="max-w-4xl mx-auto px-4 -mt-6">
+    <img src="URL_DA_IMAGEM_DE_CAPA" alt="Capa do artigo" class="w-full h-[380px] object-cover rounded-2xl border border-borderDark shadow-2xl">
+  </div>
+
+  <!-- Conteudo Principal -->
+  <main class="max-w-3xl mx-auto px-4 py-12">
+    
+    <!-- Box TL;DR / Destaques Executivos -->
+    <div class="bg-surface border-l-4 border-accent p-6 rounded-r-xl border-y border-r border-borderDark mb-10">
+      <h3 class="font-heading font-bold text-accent text-sm uppercase tracking-wider mb-2">📌 Em Resumo (TL;DR)</h3>
+      <ul class="space-y-2 text-sm text-gray-300">
+        <li class="flex items-start gap-2"><span>•</span> Ponto principal 1 resumido aqui para leitura rápida do investidor.</li>
+        <li class="flex items-start gap-2"><span>•</span> Ponto principal 2 destacando o diferencial de mercado.</li>
+        <li class="flex items-start gap-2"><span>•</span> Conclusão direta sobre a oportunidade imobiliária.</li>
+      </ul>
+    </div>
+
+    <!-- Corpo do Texto -->
+    <article class="prose prose-invert max-w-none text-gray-300 space-y-6 text-lg leading-relaxed">
+      <p>
+        O primeiro parágrafo do artigo deve prender a atenção do leitor e explicar o contexto do mercado imobiliário em São Caetano do Sul...
+      </p>
+
+      <h2 class="font-heading text-2xl font-bold text-white mt-10 mb-4 border-b border-borderDark pb-2">
+        Subtítulo Importante do Artigo
+      </h2>
+
+      <p>
+        Desenvolvimento do raciocínio com dados, análises do m² e comparativos de mercado...
+      </p>
+    </article>
+
+    <!-- Card de Autoridade do Autor (Conversão no WhatsApp) -->
+    <section class="my-16 p-8 bg-surface rounded-2xl border border-borderDark flex flex-col sm:flex-row gap-6 items-center">
+      <div class="w-20 h-20 rounded-full bg-accent text-carbon font-heading font-bold text-3xl flex items-center justify-center shrink-0">
+        MC
+      </div>
+      <div>
+        <h3 class="font-heading text-xl font-bold text-white">Precisa de consultoria imobiliária personalizada?</h3>
+        <p class="text-muted text-sm mt-1 mb-4">Sou Marcelo Conti, especialista em lançamentos e oportunidades no Espaço Cerâmica e região de São Caetano. Fale diretamente comigo no WhatsApp.</p>
+        <a href="https://wa.me/5511999999999?text=Ol%C3%A1%20Marcelo,%20li%20seu%20artigo%20e%20gostaria%20de%20consultar%20oportunidades" target="_blank" class="inline-flex items-center gap-2 bg-accent hover:bg-accentHover text-carbon font-bold px-6 py-3 rounded-lg text-sm transition">
+          Falar com Marcelo Conti no WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- Seção Dinâmica de Artigos Relacionados -->
+    <section class="border-t border-borderDark pt-12 mt-12">
+      <h3 class="font-heading text-2xl font-bold text-white mb-6">Artigos Relacionados</h3>
+      <div id="related-posts" class="grid sm:grid-cols-2 gap-6">
+        <!-- Renderizado via JavaScript -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-surface text-muted py-8 text-center text-xs border-t border-borderDark">
+    <p>© 2026 Marcelo Conti • Corretor de Imóveis CRECI 327774-F. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Script Inteligente: Carrega os "Artigos Relacionados" lendo o posts.json -->
+  <script>
+    // Identificador único deste post (para não recomendar a si próprio)
+    const CURRENT_POST_URL = window.location.pathname;
+
+    async function loadRelatedPosts() {
+      try {
+        const response = await fetch('/blog/posts.json');
+        const posts = await response.json();
+        const container = document.getElementById('related-posts');
+        
+        // Filtra para remover o post atual
+        const otherPosts = posts.filter(p => !CURRENT_POST_URL.includes(p.id));
+
+        container.innerHTML = '';
+        otherPosts.slice(0, 2).forEach(post => {
+          container.innerHTML += `
+            <a href="${post.url}" class="bg-surface border border-borderDark hover:border-accent/50 rounded-xl p-4 flex gap-4 items-center group transition">
+              <img src="${post.imageUrl}" alt="${post.title}" class="w-20 h-20 object-cover rounded-lg shrink-0">
+              <div>
+                <span class="text-[10px] font-bold text-teal uppercase tracking-wider">${post.category}</span>
+                <h4 class="font-heading text-sm font-bold text-white group-hover:text-accent transition line-clamp-2 mt-1">${post.title}</h4>
+                <span class="text-xs text-muted mt-2 block">${post.date}</span>
+              </div>
+            </a>
+          `;
+        });
+      } catch (e) {
+        console.error('Erro ao carregar posts relacionados', e);
+      }
+    }
+    loadRelatedPosts();
+  </script>
+</body>
+</html>
